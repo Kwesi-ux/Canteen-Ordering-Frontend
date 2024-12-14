@@ -80,6 +80,7 @@ Error Handling and Validation
 6. Enjoy the application!!
 
 #Screenshots of my API tests
-- ![alt text](<postman images\postman2.png>) 
-- ![alt text](<postman images\postman3.png>)
+
+- ![API Test 1](postman images/postman2.png)
+- ![API Test 2](postman images/postman3.png)
 - 
