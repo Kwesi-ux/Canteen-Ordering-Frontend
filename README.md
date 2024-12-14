@@ -79,3 +79,4 @@ Error Handling and Validation
 #Screenshots of my API tests
 - ![alt text](<postman images\postman2.png>) 
 - ![alt text](<postman images\postman3.png>)
+- ![alt text](<https://www.google.com/imgres?q=checklist%20in%20readme%20md&imgurl=https%3A%2F%2Fi.sstatic.net%2FPernX.png&imgrefurl=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F47344571%2Fhow-to-draw-checkbox-or-tick-mark-in-github-markdown-table&docid=JPw6dCcakfipaM&tbnid=Cpe3Ge08n0XO9M&vet=12ahUKEwiy26mLiqiKAxWbxQIHHSoUFk0QM3oECFIQAA..i&w=900&h=534&hcb=2&ved=2ahUKEwiy26mLiqiKAxWbxQIHHSoUFk0QM3oECFIQAA>)
