@@ -86,11 +86,17 @@ cp backend/.env
 Edit the backend/.env file to include your database credentials:
 
 DB_PORT=5432
+
 DB_HOST="db host url"
+
 DB_PORT="dbport"
+
 DB_USER="dbUsername"
+
 DB_PASSWORD="password"
+
 DB_DATABASE="your database"
+
 DB_SSL='true'
 
 
