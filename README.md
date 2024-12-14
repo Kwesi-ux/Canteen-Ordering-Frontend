@@ -54,8 +54,11 @@ Error Handling and Validation
 - [x] Create .gitignore
 - [x] Create server.js
 - [x] npm install nodemon
--
-- 
+
+### 5. Deployment
+- [x] Backend deployed on Render
+- [x] Frontend deployed on Vercel
+  
 
 
 
