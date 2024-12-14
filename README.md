@@ -1,125 +1,215 @@
-Canteen Ordering System
+# Canteen Ordering System
 
-Project Overview
+This web application allows students to place food orders online. It is developed using Express.js, React, Node.js, and PostgreSQL. It allows users to select from a wide variety of food and select what they prefer.
 
-This web application allows students to place food orders online. It is developed using Express.js, React, Node.js, and PostgreSQL. Users can select from a wide variety of food options and place orders conveniently.
+## Link to hosted version
+- Link:https://canteen-ordering-frontend.vercel.app/
 
-Hosted Version
+## Note: Hosted version is bit slow because it hosted on free servers.
 
-Link: Canteen Ordering System
+## Testing credentials for a hosted version:
+- User "username": "testuser@example.com", "password": "password123"
 
-Note: The hosted version might be slow as it is hosted on free servers.
-
-GitHub Links
-
-Backend Repository: GitHub Backend Link
-
-Testing Credentials for Hosted Version
-
-Username: testuser@example.com
-
-Password: password123
+## Github link for the backend: https://github.com/Kwesi-ux/Canteen-Ordering-System
 
 
 
-Features
+## Features
+- Fully functional cart and checkout process
+- Loyalty points system for frequent customers
+- Allergy tracking to enhance food safety
+- MongoDB integration with a start.bat script to resolve database startup issues
 
-1. Basic Styling and UI/UX
+---
 
-Designed with Tailwind CSS for a clean and consistent look.
+## Checklist
 
-Focused on intuitive navigation and user-friendly design to enhance user experience.
+### 1. Demo And Installation
+- [x] Install [NodeJs](https://nodejs.org/en)
+- [x] Install [Visual Studio Code](https://code.visualstudio.com)
+- [x] Install [Git](https://git-scm.com)
 
-2. Error Handling and Validation
+### 2. Creating React App
+- [x] Create React App
+- [x] Remove Unnecessary Codes
 
-Basic error handling and validation for user inputs (e.g., form submissions).
+### 3. Adding Header
+- [x] Add Header.js
+- [x] Use Header in App.js
+- [x] Install react-router-dom in frontend
+- [x] Add header.module.css
+- [x] Use BrowserRouter inside index.js
 
-Informative error messages to guide users in case of invalid actions.
+### 4. Adding Thumbnails
+- [x] Add HomePage component
+- [x] Add AppRoutes component
+- [x] Use AppRoutes in App.js
+- [x] Add data.js
+- [x] Add food Images
+- [x] Add foodService.js
+- [x] Update HomePage.js
+  - [x] Add Reducer
+  - [x] Load foods
+  - [x] Add Thumbnails.js
 
-3. Checklist of Implemented Features
+### 5. Adding Search
+- [x] Add Search Route to AppRoutes.js
+- [x] Add Search function to foodService.js
+- [x] Use Search Inside HomePage.js
+- [x] Add Search Component
+
+### 6. Adding Tags Bar
+#### Showing The Tags:
+- [x] Add sample_tags to data.js
+- [x] Add getAllTags function to foodService.js
+- [x] Add Tags Component
+- [x] Use Tags Component in HomePage.js
+
+#### Showing Foods By Tag
+- [x] Add Tag route to AppRoutes.js
+- [x] Add getAllByTag function to foodService.js
+- [x] Use tag param in HomePage.js
+
+### 7. Food Page
+- [x] Create FoodPage Component
+- [x] Add route to AppRoutes.js
+- [x] Add getById function to foodService.js
+- [x] Update FoodPage Componen
+
+### 8. Cart Page
+- [x] Create Cart Page Component
+- [x] Add cart route to the Routes
+- [x] Create useCart Hook
+- [x] Update Cart Page Component
+- [x] Update useCart Hook
+- [x] In Food Page useCart for Add to cart buttons
+- [x] In Header useCart for cart total count
+
+### 9. Not Found!
+- [x] Create NotFound Component
+- [x] Fix Search Issue
+
+### 10. Connect To Backend
+- [x] Create backend folder
+- [x] Initialize NPM Project
+- [x] Copy data.js to backend/src
+- [x] npm install express cors
+- [x] Create .gitignore
+- [x] Create server.js
+- [x] npm install nodemon
+- [x] Add axios package
+- [x] Connect food service to the APIs
+
+### 11. Allergy Tracking
+- [x] Add allergy input in the Register Page
+
+### 12. Loyalty Points
+- [x] Create loyalty points feature
+
+
+### Backend
+
+- [x] Create User Router
+- [x] Add User Router To server.js
+
+### Frontend
+
+- [x] Create user service
+- [x] npm install react-toastify
+- [x] Create useAuth hook
+- [x] Create LoginPage component
+- [x] Add useAuth to the Header component
+
+
+### 15. MongoDB Configuration
+- [x] Install MongoDB
+  - [x] Use `start.bat` script for resolving MongoDB startup issues
+- [x] Create database connection script
+  - [x] Add environment variables for MongoDB URI
+  - [x] Add Mongoose models for User, Food, and Orders
 
 
 
+### Coding
 
 
-Installation Guide
+## 16. Register Page
 
-Prerequisites
+- [x] Add Register Page Component
+- [x] Add '/register' api to user.router.js
+- [x] Add register function in userService
+- [x] Add register function in useAuth hook
 
-Ensure you have the following installed on your machine:
+## 17. Loading
 
-Node.js
+- [x] Create useLoading hook
+- [x] Create Loading component
+- [x] Create Loading Interceptor
 
-npm (Node Package Manager)
+## 18. Checkout Page
 
-PostgreSQL
+- [x] Fixing Loading problem
+- [x] Create Checkout Page component
+  - [x] Create Order Items List
+  - [x] Create Maps Component
+    - [x] Install leaflet & react-leaflet
+    - [x] Adding images to public folder
+    - [x] Fixing header menu problem with map
+- [x] Create Order router
 
-Steps
+  - [x] Create auth middleware
+    - [x] Add UNAUTHORIZED http statuss
+    - [x] Add to Order router
+  - [x] Create Order Model
+    - [x] Create Order Status
+  - [x] Add to server.js
 
-1. Clone the Repository
+- [x] Connecting Frontend to Backend
+  - [x] Create Auth interceptor
 
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+## 19. Payment Page
 
-2. Install Dependencies
+- [x] Create PaymentPage component
+- [x] Update Order Router
+- [x] Create PaypalButtons Component
 
-Navigate to the backend directory and install the dependencies:
+## 20. Order Track Page
 
-cd backend
-npm install
+- [x] Create Order Track Page
+- [x] Order Router
 
-Then, navigate to the frontend directory and install the dependencies:
+## 21.Profile Page
 
-cd ../frontend
-npm install
+- [x] Create ProfilePage Component
+- [x] Update useAuth hook
+- [x] Update userService
+- [x] Update User Router
 
-3. Set Up PostgreSQL Database
+## 22. Orders Page
 
-Set up your PostgreSQL database and ensure it is running.
+- [x] Create Orders Page
+- [x] Update Order Service
+- [x] Update Order Router
 
-4. Set Up Environment Variables
+## How To Run
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/lily102904/Canteen-Ordering-System
 
-Copy the sample environment file to create a new .env file:
+2. install dependencies
+  npm install
 
-cp backend/.env
+3. Start MongoDB
+Run the start.bat file located in the project root.
 
-Edit the backend/.env file to include your database credentials:
-
-DB_PORT=5432
-
-DB_HOST="db host url"
-
-DB_PORT="dbport"
-
-DB_USER="dbUsername"
-
-DB_PASSWORD="password"
-
-DB_DATABASE="your database"
-
-DB_SSL='true'
-
-
-
-5. Run the Application
-
-Start the Backend Server
-
-cd backend
-node server.js
-
-Start the Frontend Development Server
-
-cd ../frontend
+4. Run the backend
 npm run dev
 
+5. Run the frontend
+npm start
 
+6. Enjoy the application!!
 
-Contributing
-
-Contributions are welcome! Please feel free to fork the repository and submit a pull request.
-
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
+#Screenshots of my API tests
+![alt text](<Screenshot 2024-12-13 192818.png>) 
+![alt text](<Screenshot 2024-12-13 194039.png>)
