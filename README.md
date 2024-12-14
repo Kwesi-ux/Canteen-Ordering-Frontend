@@ -42,7 +42,7 @@ Error Handling and Validation
 - [x] Add Header.js
 - [x] Use Header in App.js
 - [x] Install react-router-dom in frontend
-- [x] Add header.module.css
+- 
 
 
 
@@ -54,8 +54,8 @@ Error Handling and Validation
 - [x] Create .gitignore
 - [x] Create server.js
 - [x] npm install nodemon
-- [x] Add axios package
-- [x] Connect food service to the APIs
+-
+- 
 
 
 
@@ -69,13 +69,13 @@ Error Handling and Validation
 
 
 3. Run the backend
-  node server.js
+ - node server.js
 
 5. Run the frontend
-npm run dev
+- npm run dev
 
 6. Enjoy the application!!
 
 #Screenshots of my API tests
-![alt text](<C:\Users\kwesi_xs8x0uf\Desktop\Canteen-Ordering-System\frontend\postman images\postman3.png>) 
-![alt text](<C:\Users\kwesi_xs8x0uf\Desktop\Canteen-Ordering-System\frontend\postman images\postman2.png>)
+![alt text](<postman images\postman2.png>) 
+![alt text](<postman images\postman3.png>)
