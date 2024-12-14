@@ -82,5 +82,9 @@ Error Handling and Validation
 #Screenshots of my API tests
 
 - ![postman1](https://github.com/user-attachments/assets/1b068ad0-e3b7-402e-9934-65ec6e9f2088)
+- ![postman2](https://github.com/user-attachments/assets/c3457a33-851f-4b4f-b1ad-07f5341b6c96)
+- ![postman3](https://github.com/user-attachments/assets/3c70850c-e6f7-4e09-8ab4-3c6c6c163aa9)
+
+
 
 
