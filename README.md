@@ -81,6 +81,5 @@ Error Handling and Validation
 
 #Screenshots of my API tests
 
-- ![API Test 1](postman images/postman2.png)
-- ![API Test 2](postman images/postman3.png)
-- 
+
+
